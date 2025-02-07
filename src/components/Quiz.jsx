@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Trophy, Timer, AlertCircle } from 'lucide-react';
 import { useSpring, animated } from 'react-spring';
 import { FcLikePlaceholder  } from "react-icons/fc";
-import { FaRegSadTear } from "react-icons/fa";
-import { RxCross1 } from "react-icons/rx";
 import { ImCross } from "react-icons/im";
 import correctSound from './sounds/correct.mp3';
 import wrongSound from './sounds/wrong-47985.mp3';
